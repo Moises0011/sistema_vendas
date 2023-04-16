@@ -1,0 +1,77 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-image: url(assets/fundo.jpg);
+  color: var(--text-color);
+}
+
+.titulo {
+  color: lime;
+  font-size: 30px;
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 200px;
+}
+
+.btn {
+  padding: 10%;
+}
+
+.login {
+  text-align: center;
+  padding: 150px;
+}
+
+.setores {
+  text-align: center;
+  color: lime;
+  font-size: 30px;
+  display: grid;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn1 {
+  color: #fff;
+  border: solid lime;
+  border-radius: 5px;
+  padding: 16px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn2 {
+  color: #fff;
+  border: solid lime;
+  border-radius: 5px;
+  padding: 16px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn3 {
+  color: #fff;
+  border: solid lime;
+  border-radius: 5px;
+  padding: 16px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn4 {
+  color: #fff;
+  border: solid lime;
+  border-radius: 5px;
+  padding: 16px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnBack {
+  padding-top: 50px;
+}
