@@ -2,20 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import { Button } from "primereact/button";
-import acougue from "../assets/acougue.jpg";
+import padaria from "../assets/padaria.jpg";
 
-export default function Acougue() {
+export default function Padaria() {
   return (
     <div
       style={{
-        backgroundImage: `url(${acougue})`,
+        backgroundImage: `url(${padaria})`,
         backgroundRepeat: "no-repeat",
         height: "650px",
         backgroundPosition: "center",
       }}
     >
       <div style={{ textAlign: "center", color: "limegreen", margin: "10px" }}>
-        <h1>Açougue</h1>
+        <h1>Padaria</h1>
       </div>
 
       <Link to="/menu">

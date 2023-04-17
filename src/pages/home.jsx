@@ -11,7 +11,11 @@ export default function Home() {
       </div>
       <div className="btn">
         <Link to="/login">
-          <Button label="Começar" size="large" />
+          <Button
+            label="Começar"
+            size="large"
+            style={{ backgroundColor: "LimeGreen", color: "white" }}
+          />
         </Link>
       </div>
     </div>

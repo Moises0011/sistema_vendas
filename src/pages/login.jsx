@@ -38,7 +38,10 @@ export default function Login() {
 
       <br />
       <Link to="/menu">
-        <Button label="Entrar" />
+        <Button
+          label="Entrar"
+          style={{ backgroundColor: "LimeGreen", color: "white" }}
+        />
       </Link>
     </div>
   );

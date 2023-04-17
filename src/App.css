@@ -5,11 +5,15 @@ body {
   font-family: "Orbitron", sans-serif;
   font-family: "Roboto", sans-serif;
   background-image: url(assets/fundo.jpg);
-  color: var(--text-color);
 }
 
 .titulo {
-  color: lime;
+  color: LimeGreen;
+  font-family: "Audiowide", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 30px;
   display: grid;
   align-items: center;
@@ -29,7 +33,7 @@ body {
 
 .setores {
   text-align: center;
-  color: lime;
+  color: LimeGreen;
   font-size: 30px;
   display: grid;
   align-items: center;
