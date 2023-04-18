@@ -14,7 +14,10 @@ export default function Home() {
           <Button
             label="Começar"
             size="large"
-            style={{ backgroundColor: "LimeGreen", color: "white" }}
+            style={{
+              backgroundColor: "LimeGreen",
+              color: "white",
+            }}
           />
         </Link>
       </div>
