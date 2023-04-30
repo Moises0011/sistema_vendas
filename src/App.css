@@ -1,14 +1,13 @@
 body {
+  font-family: "Audiowide", cursive;
   font-family: "Bebas Neue", cursive;
   font-family: "Dosis", sans-serif;
   font-family: "Nunito", sans-serif;
-  font-family: "Orbitron", sans-serif;
-  font-family: "Roboto", sans-serif;
   background-image: url(assets/fundo.jpg);
 }
 
 .titulo {
-  color: LimeGreen;
+  color: limegreen;
   font-family: "Audiowide", cursive;
   font-family: "Bebas Neue", cursive;
   font-family: "Dosis", sans-serif;
@@ -27,20 +26,123 @@ body {
 }
 
 .login {
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: bold;
+
   padding: 150px;
-  font-family: "Audiowide", cursive;
-  font-family: "Bebas Neue", cursive;
-  font-family: "Dosis", sans-serif;
-  font-family: "Nunito", sans-serif;
-  font-family: "Orbitron", sans-serif;
+
+  max-width: 465px;
+  margin: 130px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid limegreen;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.login button:hover {
+  border: 2px solid lime;
+  box-shadow: lime 0px 0px 12px 1px inset, lime 0px 0px 12px 1px;
+  border-radius: 10px;
 }
 
 .setores {
   text-align: center;
-  color: LimeGreen;
+  color: limegreen;
   font-size: 30px;
-  display: grid;
-  align-items: center;
+  /* display: grid; */
   height: 100vh;
+}
+
+.items {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2.5rem;
+  background-color: #444;
+  height: 15%;
+  /* border: 2px solid limegreen; */
+}
+
+.menuitem:hover {
+  /* border-radius: 1px;
+  border: solid lime; */
+
+  border: 2px solid lime;
+  box-shadow: lime 0px 0px 12px 1px inset, lime 0px 0px 12px 1px;
+  border-radius: 10px;
+}
+
+.botoes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* margin: 30px auto; */
+  gap: 15px;
+  font-weight: bold;
+  /* max-width: 400px; */
+  /* border: 2px solid limegreen; */
+
+  max-width: 415px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid limegreen;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.botoes button:hover {
+  border: 2px solid lime;
+  box-shadow: lime 0px 0px 12px 1px inset, lime 0px 0px 12px 1px;
+  border-radius: 10px;
+}
+
+.btnVoltar button:hover {
+  border: 2px solid lime;
+  box-shadow: lime 0px 0px 12px 1px inset, lime 0px 0px 12px 1px;
+  border-radius: 10px;
+}
+
+.Calc button:hover {
+  border: 2px solid lime;
+  box-shadow: lime 0px 0px 12px 1px inset, lime 0px 0px 12px 1px;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid limegreen;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.calculator {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+  font-weight: bold;
+
+  max-width: 615px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid limegreen;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.btn button:hover {
+  border: 2px solid lime;
+  box-shadow: limegreen 0px 0px 12px 1px inset, lime 0px 0px 12px 1px;
+  border-radius: 15px;
 }

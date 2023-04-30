@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
-import { Button } from "primereact/button";
 import acougue from "../assets/acougue.jpg";
 
 export default function Acougue() {
@@ -18,13 +17,31 @@ export default function Acougue() {
         <h1>Açougue</h1>
       </div>
 
-      <Link to="/menu">
-        <Button
-          label="Voltar"
-          size="large"
-          style={{ backgroundColor: "LimeGreen", color: "white" }}
-        />
-      </Link>
+      <div className="btnVoltar">
+        <button
+          style={{
+            fontWeight: "bold",
+            padding: "5px",
+            border: "none",
+            borderRadius: "8px",
+            width: "100px",
+            fontSize: "20px",
+            backgroundColor: "limegreen",
+            cursor: "pointer",
+            margin: "5px",
+          }}
+        >
+          <Link
+            style={{
+              color: "black",
+              textDecoration: "none",
+            }}
+            to="/menu"
+          >
+            Voltar
+          </Link>
+        </button>
+      </div>
     </div>
   );
 }
