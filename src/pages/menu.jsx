@@ -60,125 +60,125 @@ export default function Menu() {
       <div className="botoes" style={{ color: "white" }}>
         <h2>Setores</h2>
 
-        <button
+        <Link
           style={{
-            backgroundColor: "limegreen",
-            width: "100px",
-            padding: "15px",
-            border: "none",
-            borderRadius: "8px",
-            width: "350px",
-            fontSize: "25px",
-            cursor: "pointer",
+            color: "black",
+            textDecoration: "none",
           }}
+          to="/acougue"
         >
-          <Link
+          <button
             style={{
               fontWeight: "bold",
-              color: "black",
-              textDecoration: "none",
+              backgroundColor: "limegreen",
+              width: "100px",
+              padding: "15px",
+              border: "none",
+              borderRadius: "8px",
+              width: "350px",
+              fontSize: "25px",
+              cursor: "pointer",
             }}
-            to="/acougue"
           >
             Açougue
-          </Link>
-        </button>
+          </button>
+        </Link>
 
-        <button
+        <Link
           style={{
-            fontWeight: "bold",
-            backgroundColor: "limegreen",
-            width: "100px",
-            padding: "15px",
-            border: "none",
-            borderRadius: "8px",
-            width: "350px",
-            fontSize: "25px",
-            cursor: "pointer",
+            color: "black",
+            textDecoration: "none",
           }}
+          to="/verduras"
         >
-          <Link
+          <button
             style={{
-              color: "black",
-              textDecoration: "none",
+              fontWeight: "bold",
+              backgroundColor: "limegreen",
+              width: "100px",
+              padding: "15px",
+              border: "none",
+              borderRadius: "8px",
+              width: "350px",
+              fontSize: "25px",
+              cursor: "pointer",
             }}
-            to="/verduras"
           >
             Verduras
-          </Link>
-        </button>
+          </button>
+        </Link>
 
-        <button
+        <Link
           style={{
-            fontWeight: "bold",
-            backgroundColor: "limegreen",
-            width: "100px",
-            padding: "15px",
-            border: "none",
-            borderRadius: "8px",
-            width: "350px",
-            fontSize: "25px",
-            cursor: "pointer",
+            color: "black",
+            textDecoration: "none",
           }}
+          to="/padaria"
         >
-          <Link
+          <button
             style={{
-              color: "black",
-              textDecoration: "none",
+              fontWeight: "bold",
+              backgroundColor: "limegreen",
+              width: "100px",
+              padding: "15px",
+              border: "none",
+              borderRadius: "8px",
+              width: "350px",
+              fontSize: "25px",
+              cursor: "pointer",
             }}
-            to="/padaria"
           >
             Padaria
-          </Link>
-        </button>
+          </button>
+        </Link>
 
-        <button
+        <Link
           style={{
-            fontWeight: "bold",
-            backgroundColor: "limegreen",
-            width: "100px",
-            padding: "15px",
-            border: "none",
-            borderRadius: "8px",
-            width: "350px",
-            fontSize: "25px",
-            cursor: "pointer",
+            color: "black",
+            textDecoration: "none",
           }}
+          to="/"
         >
-          <Link
+          <button
             style={{
-              color: "black",
-              textDecoration: "none",
+              fontWeight: "bold",
+              backgroundColor: "limegreen",
+              width: "100px",
+              padding: "15px",
+              border: "none",
+              borderRadius: "8px",
+              width: "350px",
+              fontSize: "25px",
+              cursor: "pointer",
             }}
-            to="/"
           >
             Cereais
-          </Link>
-        </button>
+          </button>
+        </Link>
 
-        <button
+        <Link
           style={{
-            fontWeight: "bold",
-            backgroundColor: "limegreen",
-            width: "100px",
-            padding: "15px",
-            border: "none",
-            borderRadius: "8px",
-            width: "350px",
-            fontSize: "25px",
-            cursor: "pointer",
+            color: "black",
+            textDecoration: "none",
           }}
+          to="/"
         >
-          <Link
+          <button
             style={{
-              color: "black",
-              textDecoration: "none",
+              fontWeight: "bold",
+              backgroundColor: "limegreen",
+              width: "100px",
+              padding: "15px",
+              border: "none",
+              borderRadius: "8px",
+              width: "350px",
+              fontSize: "25px",
+              cursor: "pointer",
             }}
-            to="/"
           >
             Adega e bebidas
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
 
       {/* <Button

@@ -68,29 +68,29 @@ export default function Login() {
 
       <br />
 
-      <button
+      <Link
         style={{
-          fontWeight: "bold",
-          width: "10px",
-          padding: "15px",
-          border: "none",
-          borderRadius: "8px",
-          width: "100px",
-          fontSize: "20px",
-          backgroundColor: "limegreen",
-          cursor: "pointer",
+          color: "black",
+          textDecoration: "none",
         }}
+        to="/menu"
       >
-        <Link
+        <button
           style={{
-            color: "black",
-            textDecoration: "none",
+            fontWeight: "bold",
+            width: "10px",
+            padding: "15px",
+            border: "none",
+            borderRadius: "8px",
+            width: "100px",
+            fontSize: "20px",
+            backgroundColor: "limegreen",
+            cursor: "pointer",
           }}
-          to="/menu"
         >
           Entrar
-        </Link>
-      </button>
+        </button>
+      </Link>
 
       {/* <div style={{ color: "limegreen", width: "81%" }}>
         <Checkbox

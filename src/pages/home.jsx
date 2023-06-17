@@ -9,29 +9,29 @@ export default function Home() {
         <h1 style={{ textShadow: "3px 3px black" }}>SALES AGILITY</h1>
       </div>
       <div className="btn">
-        <button
+        <Link
           style={{
-            fontWeight: "bold",
-            width: "10px",
-            padding: "15px",
-            border: "none",
-            borderRadius: "8px",
-            width: "150px",
-            fontSize: "20px",
-            backgroundColor: "limegreen",
-            cursor: "pointer",
+            color: "black",
+            textDecoration: "none",
           }}
+          to="/login"
         >
-          <Link
+          <button
             style={{
-              color: "black",
-              textDecoration: "none",
+              fontWeight: "bold",
+              width: "10px",
+              padding: "15px",
+              border: "none",
+              borderRadius: "8px",
+              width: "150px",
+              fontSize: "20px",
+              backgroundColor: "limegreen",
+              cursor: "pointer",
             }}
-            to="/login"
           >
             Começar
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </div>
   );

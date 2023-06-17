@@ -55,29 +55,29 @@ const App = () => {
   return (
     <>
       <div className="btnVoltar">
-        <button
+        <Link
           style={{
-            fontWeight: "bold",
-            padding: "5px",
-            border: "none",
-            borderRadius: "8px",
-            width: "100px",
-            fontSize: "20px",
-            backgroundColor: "limegreen",
-            cursor: "pointer",
-            margin: "5px",
+            color: "black",
+            textDecoration: "none",
           }}
+          to="/menu"
         >
-          <Link
+          <button
             style={{
-              color: "black",
-              textDecoration: "none",
+              fontWeight: "bold",
+              padding: "5px",
+              border: "none",
+              borderRadius: "8px",
+              width: "100px",
+              fontSize: "20px",
+              backgroundColor: "limegreen",
+              cursor: "pointer",
+              margin: "5px",
             }}
-            to="/menu"
           >
             Voltar
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
       <div className="container">
         <Header />
